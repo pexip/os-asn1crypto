@@ -1,7 +1,8 @@
 Source: asn1crypto
 Section: python
 Priority: optional
-Maintainer: Tristan Seligmann <mithrandi@debian.org>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Tristan Seligmann <mithrandi@debian.org>
 Build-Depends:
  debhelper (>= 9),
  dh-python,
@@ -15,6 +16,7 @@ Standards-Version: 4.1.2
 Homepage: https://github.com/wbond/asn1crypto
 Vcs-Git: https://anonscm.debian.org/git/python-modules/packages/asn1crypto.git
 Vcs-Browser: https://anonscm.debian.org/git/python-modules/packages/asn1crypto.git
+XS-Pexip-Upstream: http://mirror.einval.org/debian/ buster
 
 Package: python-asn1crypto
 Architecture: all
