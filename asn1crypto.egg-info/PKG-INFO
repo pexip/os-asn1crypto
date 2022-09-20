@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: asn1crypto
-Version: 1.4.0
+Version: 1.5.1
 Summary: Fast ASN.1 parser and serializer with definitions for private keys, public keys, certificates, CRL, OCSP, CMS, PKCS#3, PKCS#7, PKCS#8, PKCS#12, PKCS#5, X.509 and TSP
 Home-page: https://github.com/wbond/asn1crypto
 Author: wbond
@@ -17,6 +17,7 @@ Description: # asn1crypto
          - [Dependencies](#dependencies)
          - [Installation](#installation)
          - [License](#license)
+         - [Security Policy](#security-policy)
          - [Documentation](#documentation)
          - [Continuous Integration](#continuous-integration)
          - [Testing](#testing)
@@ -24,8 +25,6 @@ Description: # asn1crypto
          - [CI Tasks](#ci-tasks)
         
         [![GitHub Actions CI](https://github.com/wbond/asn1crypto/workflows/CI/badge.svg)](https://github.com/wbond/asn1crypto/actions?workflow=CI)
-        [![Travis CI](https://api.travis-ci.org/wbond/asn1crypto.svg?branch=master)](https://travis-ci.org/wbond/asn1crypto)
-        [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/wbond/asn1crypto?branch=master&svg=true)](https://ci.appveyor.com/project/wbond/asn1crypto)
         [![CircleCI](https://circleci.com/gh/wbond/asn1crypto.svg?style=shield)](https://circleci.com/gh/wbond/asn1crypto)
         [![PyPI](https://img.shields.io/pypi/v/asn1crypto.svg)](https://pypi.org/project/asn1crypto/)
         
@@ -119,11 +118,11 @@ Description: # asn1crypto
         
         ## Current Release
         
-        1.4.0 - [changelog](changelog.md)
+        1.5.0 - [changelog](changelog.md)
         
         ## Dependencies
         
-        Python 2.6, 2.7, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8 or pypy. *No third-party
+        Python 2.6, 2.7, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 3.10 or pypy. *No third-party
         packages required.*
         
         ## Installation
@@ -136,6 +135,11 @@ Description: # asn1crypto
         
         *asn1crypto* is licensed under the terms of the MIT license. See the
         [LICENSE](LICENSE) file for the exact license text.
+        
+        ## Security Policy
+        
+        The security policies for this project are covered in
+        [SECURITY.md](https://github.com/wbond/asn1crypto/blob/master/SECURITY.md).
         
         ## Documentation
         
@@ -165,10 +169,8 @@ Description: # asn1crypto
         
         Various combinations of platforms and versions of Python are tested via:
         
-         - [AppVeyor](https://ci.appveyor.com/project/wbond/asn1crypto/history)
-         - [CircleCI](https://circleci.com/gh/wbond/asn1crypto)
-         - [GitHub Actions](https://github.com/wbond/asn1crypto/actions)
-         - [Travis CI](https://travis-ci.org/wbond/asn1crypto/builds)
+         - [macOS, Linux, Windows](https://github.com/wbond/asn1crypto/actions/workflows/ci.yml) via GitHub Actions
+         - [arm64](https://circleci.com/gh/wbond/asn1crypto) via CircleCI
         
         ## Testing
         
@@ -295,6 +297,8 @@ Classifier: Programming Language :: Python :: 3.5
 Classifier: Programming Language :: Python :: 3.6
 Classifier: Programming Language :: Python :: 3.7
 Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
 Classifier: Programming Language :: Python :: Implementation :: CPython
 Classifier: Programming Language :: Python :: Implementation :: PyPy
 Classifier: Topic :: Security :: Cryptography

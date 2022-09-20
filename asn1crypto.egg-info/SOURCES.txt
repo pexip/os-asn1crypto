@@ -1,3 +1,4 @@
+LICENSE
 setup.py
 asn1crypto/__init__.py
 asn1crypto/_errors.py
@@ -28,6 +29,7 @@ asn1crypto.egg-info/SOURCES.txt
 asn1crypto.egg-info/dependency_links.txt
 asn1crypto.egg-info/top_level.txt
 asn1crypto/../LICENSE
+asn1crypto/../SECURITY.md
 asn1crypto/../changelog.md
 asn1crypto/../readme.md
 asn1crypto/../docs/pem.md

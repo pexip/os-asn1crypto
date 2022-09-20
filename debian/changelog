@@ -1,3 +1,31 @@
+asn1crypto (1.5.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Drop pypy package (Closes: #1019976)
+
+ -- Jochen Sprickerhof <jspricke@debian.org>  Tue, 20 Sep 2022 13:10:03 +0200
+
+asn1crypto (1.5.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 1.5.1
+  * Update d/copyright
+  * Use dh-sequence-
+  * Bump policy version (no changes)
+
+ -- Jochen Sprickerhof <jspricke@debian.org>  Mon, 04 Jul 2022 09:07:02 +0200
+
+asn1crypto (1.4.0-2) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Sandro Tosi ]
+  * Use the new Debian Python Team contact name and address
+
+ -- Sandro Tosi <morph@debian.org>  Thu, 21 Apr 2022 18:01:29 -0400
+
 asn1crypto (1.4.0-1) unstable; urgency=medium
 
   * New upstream release.
