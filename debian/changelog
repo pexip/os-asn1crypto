@@ -1,3 +1,12 @@
+asn1crypto (1.5.1-3) unstable; urgency=medium
+
+  * Team upload
+  * Update renamed lintian tag names in lintian overrides
+  * Set upstream metadata fields: Security-Contact
+  * Remove retired uploader
+
+ -- Bastian Germann <bage@debian.org>  Thu, 13 Jul 2023 13:39:35 +0200
+
 asn1crypto (1.5.1-2) unstable; urgency=medium
 
   * Team upload.
