@@ -2,21 +2,19 @@ Source: asn1crypto
 Section: python
 Priority: optional
 Maintainer: Pexip AS <packaging@pexip.com>
-XSBC-Pexip-Original-Maintainer: Tristan Seligmann <mithrandi@debian.org>
-XSBC-Pexip-Original-Uploaders:
- Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>,
+XSBC-Pexip-Maintainer: Tristan Seligmann <mithrandi@debian.org>
+XSBC-Pexip-Uploaders:
+ Debian Python Team <team+python@tracker.debian.org>,
 Build-Depends:
  debhelper-compat (= 13),
- dh-python,
- pypy,
- pypy-setuptools,
+ dh-sequence-python3,
  python3-all,
  python3-setuptools,
-Standards-Version: 4.5.0
+Standards-Version: 4.6.1
 Rules-Requires-Root: no
 Homepage: https://github.com/wbond/asn1crypto
-Vcs-Git: https://salsa.debian.org/python-team/modules/asn1crypto.git
-Vcs-Browser: https://salsa.debian.org/python-team/modules/asn1crypto
+Vcs-Git: https://salsa.debian.org/python-team/packages/asn1crypto.git
+Vcs-Browser: https://salsa.debian.org/python-team/packages/asn1crypto
 XS-Pexip-Upstream: http://deb.debian.org/debian/ bookworm
 
 Package: python3-asn1crypto
@@ -33,17 +31,3 @@ Description: Fast ASN.1 parser and serializer (Python 3)
   - Utilization of high-level Python stdlib modules
  .
  This package contains the Python 3 version of asn1crypto.
-
-Package: pypy-asn1crypto
-Architecture: all
-Depends: ${misc:Depends}, ${pypy:Depends}
-Recommends: ${pypy:Recommends}
-Suggests: ${pypy:Suggests}
-Description: Fast ASN.1 parser and serializer (PyPy)
- asn1crypto focuses on:
-  - Delayed parsing of byte string values
-  - Persistence of original ASN.1 encoded data until a value is changed
-  - Lazy loading of child fields
-  - Utilization of high-level Python stdlib modules
- .
- This package contains the PyPy version of asn1crypto.
