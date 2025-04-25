@@ -1,2 +1,2 @@
 # Upstream does not sign their releases
-asn1crypto source: debian-watch-does-not-check-gpg-signature
+asn1crypto source: debian-watch-does-not-check-openpgp-signature
